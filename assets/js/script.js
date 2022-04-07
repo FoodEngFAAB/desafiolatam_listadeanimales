@@ -15,20 +15,19 @@ let data = (event) => {
 
     //Instanciar según tipo de mascota seleccionada
     if (specie == 'gato') {
-        console.log('ES UN GATO!!')
+
         let gato = new Mascota(owner, phone, address, specie, petName, disease)
 
         resultado.innerHTML = `${gato.datosPropietario()}.\n${gato.datosMascota()}.`
 
     } else if (specie == 'perro') {
-        console.log('ES UN PERRO!!')
+
         let perro = new Mascota(owner, phone, address, specie, petName, disease)
 
         resultado.innerHTML = `${perro.datosPropietario()}.\n${perro.datosMascota()}.`
 
     }
     if (specie == 'conejo') {
-        console.log('ES UN CONEJO!!')
 
         let conejo = new Mascota(owner, phone, address, specie, petName,  disease)
 
