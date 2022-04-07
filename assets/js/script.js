@@ -36,14 +36,14 @@ let data = (event) => {
 
     }
     //Limpiar Imputs
-    /*
+    
     document.getElementById('propietario').value = ''
     document.getElementById('telefono').value = ''
     document.getElementById('direccion').value = ''
     document.getElementById('nombreMascota').value = ''
     document.getElementById('tipo').value = ''
     document.getElementById('enfermedad').value = ''
-    */
+    
 }
 
 let formulario = document.querySelector('form')
@@ -114,9 +114,9 @@ class Mascota extends Animal {
     }
 
     datosMascota() {
-        console.log(`\nEl tipo de animal es un ${this._specie}, que responde al nombre de ${this._petName}, y presenta ${this._disease} de acuerdo a lo señalado por su dueño(a).`)
+        console.log(`\nEl tipo de animal es un ${this._specie}, que responde al nombre de ${this._petName}, presenta ${this._disease} de acuerdo a lo señalado por su dueño(a).`)
     
-        return (`<li>El tipo de animal es un ${this._specie}, que responde al nombre de ${this._petName}, y presenta ${this._disease} de acuerdo a lo señalado por su dueño(a).</li></ul>`)
+        return (`<li>El tipo de animal es un ${this._specie}, que responde al nombre de ${this._petName}, presenta ${this._disease} de acuerdo a lo señalado por su dueño(a).</li></ul>`)
     }
 }
 
