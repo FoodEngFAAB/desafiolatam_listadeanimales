@@ -106,12 +106,7 @@ class Mascota extends Animal {
     }
 
     
-    datosMascota() {
-        console.log(``)
 
-        return (``)
-
-    }
 
     datosMascota() {
         console.log(`\nEl tipo de animal es un ${this._specie}, que responde al nombre de ${this._petName}, presenta ${this._disease} de acuerdo a lo señalado por su dueño(a).`)
